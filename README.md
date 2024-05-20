@@ -244,7 +244,7 @@ If you enables ssl trace logs and tcpdump, you can inspect the tls certificate s
 
 Completely unrelated to TPM based access to CloudSQL, you can also connect via envoy for both mTLS and IAM though for IAM, the access_token will not get refreshed (meaning, its not that useful)
 
-To connect via envoy, see [Envoy Postgres Proxy Filter with TLS](https://github.com/salrashid123envoy_postgres), a sample envoy cluster config could reade
+To connect via envoy, see [Envoy Postgres Proxy Filter with TLS](https://github.com/salrashid123/envoy_postgres), a sample envoy cluster config could reade
 
 ```yaml
   clusters:
